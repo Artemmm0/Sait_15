@@ -1,0 +1,27 @@
+.footer {
+  background: #171717;
+}
+
+.footer__container {
+  max-width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.footer__copyright {
+  text-align: center;
+  border-top: 2px solid #929292;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  max-width: 50%;
+  color: #929292;
+}
+
+/* .footer__icons a {
+    width: 200px;
+    height: 60px;
+    float: left;
+    background: url(img/social-icons.png);
+}  */

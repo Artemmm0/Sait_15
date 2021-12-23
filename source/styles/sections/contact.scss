@@ -1,0 +1,57 @@
+.contact {
+  /* background: url(img/bg-contact.png);
+  background-size: 100% 100%; */
+  background: #171717;
+}
+
+.contact h2 {
+  color: #929292;
+}
+
+.contact__way {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact__item {
+  flex: 0 1 33%;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.contact__item::before {
+  content: '✆';
+  font-size: 5rem;
+}
+
+.contact__item:first-of-type::before {
+  content: '🖂';
+  font-size: 5rem;
+}
+
+.contact__item:last-of-type::before {
+  content: '🗺';
+  font-size: 5rem;
+}
+
+.contact__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact__item:hover {
+  background: #494949;
+}
+
+.contact__item a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
