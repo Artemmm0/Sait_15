@@ -1,0 +1,62 @@
+.advantage {
+  background: url(img/bg-wwd.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.advantage h2,
+.contact h2,
+.team h2 {
+  text-align: center;
+}
+
+.advantage .container,
+.team .container,
+.contact .container {
+  max-width: 1280px;;
+  margin: 0 auto;
+  padding: 0 25px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.advantage__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantage__item {
+  flex: 0 1 30%;
+  padding: 10px;
+}
+
+.advantage h3 {
+  font-size: 1.875rem;
+  color: #494949;
+  padding: 20px 10px 20px;
+}
+
+.advantage p {
+  font-size: 1rem;
+  padding: 10px 10px;
+  margin-left: 50px;
+  line-height: 1.5;
+}
+
+/* .advantage__item h3::before {
+    content: '🏳';
+    border-radius: 50%;
+    background: #bc2e3a;
+    color: #fff;
+    padding: 8px;
+    margin: 6px;
+} */
+
+.advantage__item h3::before {
+  content: '✉';
+  border-radius: 50%;
+  background: #bc2e3a;
+  color: #fff;
+  padding: 8px;
+  margin: 6px;
+}
