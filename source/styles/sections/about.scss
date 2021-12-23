@@ -1,0 +1,63 @@
+.about {
+  background: url(img/bg-about.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.about__description,
+.work__description {
+  padding: 27px 0 10px;
+  line-height: 1.5;
+  flex: 0 1 40%;
+}
+
+.about__description h2,
+.advantage h2,
+.work h2,
+.team h2,
+.client h2,
+.contact h2 {
+  padding: 10px 0 41px;
+  font-family: 'Fira Sans', sans-serif, 'Arial', sans-serif;
+  font-size: 3.863rem;
+  font-weight: 800;
+  color: #494949;
+}
+
+.about__description p,
+.work__description p {
+  font-size: 1rem;
+  padding:   10px 0 40px;
+  margin-bottom: 40px;
+}
+/*
+.about__description p::before {
+    content: '🏳';
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    padding: 10px;
+} */
+
+.about__description a,
+.work__description a {
+  color: #fff;
+  background: #bc2e3a;
+}
+
+.about__description a:hover,
+.work__description a:hover {
+  border: 2px solid #bc2e3a;
+  background: #fff;
+  color: #bc2e3a;
+}
+
+.about__img {
+  flex: 0 1 50%;
+  display: flex;
+  align-items: center;
+}
+
+.about__img img {
+  width: 100%;
+  object-fit: cover;
+}
