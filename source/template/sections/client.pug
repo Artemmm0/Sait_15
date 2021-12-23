@@ -1,0 +1,18 @@
+section.client.js-client
+    .container
+        h2 What clients says
+        .client__container
+            .client__foto
+                img(src='img/client-foto.png', alt='client photo', data-photo)
+            .client__testimonial
+                p(data-text).
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sequi eligendi ad eum ratione hic corporis, consequuntur unde quis! Est sed officiis cupiditate numquam distinctio veniam corporis enim assumenda nesciunt.
+
+                h3(data-name) Jinny Snow, Company SEO
+                .client__list
+                    .client__btn
+                        img#0(src='img/client-foto.png', alt, onclick='changeClient(this)')
+                    .client__btn
+                        img#1(src='img/JohnSnow.png', alt, onclick='changeClient(this)')
+                    .client__btn
+                        img#2(src='img/Doctor.png', alt, onclick='changeClient(this)')

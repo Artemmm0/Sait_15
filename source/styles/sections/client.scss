@@ -1,0 +1,62 @@
+.client {
+  background: url(img/client_back.png);
+  background-size: 100% 100%;
+}
+
+.client .container {
+  flex-direction: column;
+}
+
+.client__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client h2 {
+  padding-left: 90px;
+}
+
+.client h3 {
+  font-weight: bold;
+  color: #494949;
+  padding-top: 20px;
+}
+
+.client__foto {
+  flex: 0 1 40%;
+}
+
+.client__foto img {
+  width: 100%;
+}
+
+.client__testimonial {
+  flex: 0 1 45%;
+  padding-top: 150px;
+}
+
+.client__testimonial p {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-style: italic;
+  font-family: 'Open-Sans' , sans-serif;
+}
+
+.client__list {
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+}
+
+.client__btn {
+  width: 20%;
+}
+
+.client__btn img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.client__btn img:hover {
+  transform: scale(1.1);
+}
